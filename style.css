@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    background-color: #D0D3D6;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    
+}
+
+.logonike{
+    cursor: pointer;
+    padding-right: 80px;
+}
+
+.menu{
+    display: flex;
+    
+}
+li{
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.icones{
+    cursor: pointer;
+    display: flex;
+    margin-left: 470px;
+
+}
+a{  color: #000002;
+    text-decoration: none;
+}
+
+i{  
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+
+main{
+     padding-top: 50px;
+     margin-left: 90px;
+     padding-right: 20px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p1{
+    font-size: 19px;
+    color: #3c3b3d;
+    font-weight: 500;
+}
+
+.nikelimited{
+    color: #000002;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.p2{
+    font-weight: 500;
+    width: 400px;
+    padding-bottom: 40px;
+}
+.btn{
+    background-color: #000002;
+    color: white;
+    text-transform: uppercase;
+    border: 20px solid black;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    cursor: pointer;
+}
+.product{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.content-tenis{
+    cursor: pointer;
+    margin-left: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.194);
+    height: 350px;
+    width: 230px;
+}
+.product::-webkit-scrollbar{
+    display: none;
+}
+ 
+
+
+.nometenis{
+    position: relative;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.tamanhotenis{
+    font-weight: 400px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.modelotenis{
+    font-weight: 400px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.cortenis{
+    font-weight: 400px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.valortenis{
+    
+    padding-top: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+
+#imgtenis{
+
+    width: 230px;
+}
+
